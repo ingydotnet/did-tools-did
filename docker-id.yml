@@ -1,0 +1,20 @@
+---
+name: did-tools
+user: dids
+repo: git@github.com:ingydotnet/did-tools-did
+
+entry:
+- name: main
+  point: /yaml2bash
+  interactive: true
+  tty: false
+  privileged: false
+  readonly: false
+  rm: true
+  volume: []
+  env: []
+
+  run: --rm
+    --interactive
+    --entrypoint /yaml2bash
+    dids/did-tools

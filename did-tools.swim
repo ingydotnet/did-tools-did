@@ -1,0 +1,14 @@
+dids/did-tools
+==============
+
+Docker ID image for did-tools
+
+= Synopsis
+
+  cat file.yaml | did run yaml2bash
+
+= Copyright & License
+
+Copyright 2016. Ingy döt Net.
+
+The MIT License (MIT)
